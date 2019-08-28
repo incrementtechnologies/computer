@@ -18,6 +18,7 @@ class CreateComputersTable extends Migration
             $table->string('code');
             $table->bigInteger('account_id');
             $table->bigInteger('branch_id');
+            $table->string('name');
             $table->string('ip_address');
             $table->string('status');
             $table->boolean('online');
