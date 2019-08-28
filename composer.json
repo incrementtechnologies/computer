@@ -1,0 +1,26 @@
+{
+    "name": "increment/computer",
+    "description": "Computers Module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kennCK",
+            "email": "kennettecanales@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Increment\\Computer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Increment\\Computer\\ComputerServiceProvider"
+            ]
+        }
+    }
+}
